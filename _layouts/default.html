@@ -5,15 +5,15 @@
 
   <body>
 
-    {%- include views/header.html -%}
+    <!-- {%- include extensions/theme-toggle.html -%} -->
+
+    {%- include views/header.html theme_toggle=true -%}
 
     {%- include views/banner.html -%}
 
-    {%- include extensions/hashlocate.html -%}
+    <!-- {%- include extensions/hashlocate.html -%} -->
 
-    {%- include extensions/theme-toggle.html -%}
-
-    {%- include extensions/click-to-top.html -%}
+    <!-- {%- include extensions/click-to-top.html -%} -->
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">

@@ -1,8 +1,15 @@
----
-layout: articles
-heading: 'Concepts and Computation Lab'
-subheading: 'At the University of Edinburgh'
-banner: 'default'
----
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-{{ content }}
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include views/header.html -%}
+
+    {%- include views/banner.html -%}
+
+    {%- include views/footer.html -%}
+
+  </body>
+</html>
