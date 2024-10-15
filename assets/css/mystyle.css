@@ -16,6 +16,7 @@ a {
 
 .person {
   border: none;
+  height: 200px;
 }
 
 .person-photo {
@@ -33,8 +34,9 @@ a {
 }
 
 .person-info {
+  vertical-align: top;
   padding-left: 40px;
-  padding-top: 0px;
+  padding-top: 5px;
   border: none;
   background: none;
 }
