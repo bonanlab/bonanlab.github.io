@@ -1,5 +1,5 @@
 
-title: Bonan's Concepts and Computation Lab
+title: BoCoCo Lab
 email: zbn.dale@gmail.com
 author: Bonan Zhao
 copyright: "Copyright (c) 2024."
@@ -116,21 +116,15 @@ night_mode: "off"
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
 header_pages:
-  - research.html
   - people.html
   - publications.html
   - resources.html
-  # - index.html
-  # - about.html
-  # - archives.html
-  # - categories.html
-  # - tags.html
 
 
 # Page default value
 defaults:
   home:
-    heading: "Concepts and Computational Lab"
+    heading: "Computational Cognitive Science Lab"
     subheading: ""
     banner:
       background: "linear-gradient(to left, #f0f0f0, #d9d9d9, #b3b3b3, #808080, #4d4d4d);"

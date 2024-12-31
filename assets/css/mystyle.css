@@ -1,6 +1,9 @@
 a {
   text-decoration: underline;
 }
+#site-title {
+  letter-spacing: normal !important;
+}
 
 /* People Page Table Styling */
 .people-table {
